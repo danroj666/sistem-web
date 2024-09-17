@@ -19,7 +19,7 @@
             header("location:venta.php");
         } else {
             // Mostrar mensaje de error en la misma página
-            echo "<p>Usuario o contraseña incorrecta</p>";
+            echo "<p> Usuario o Contraseña incorrecta</p>";
         }
     }
 ?>
