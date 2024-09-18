@@ -18,7 +18,7 @@
             $_SESSION['Iduser']=$regUsuario['idUsuario'];
             header("location:venta.php");
         } else {
-            // Mostrar mensaje de error en la misma página
+            // Mostrar mensajes de error en la misma página
             echo "<p> Usuario o Contraseña incorrecta</p>";
         }
     }
