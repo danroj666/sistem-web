@@ -8,7 +8,7 @@
     if(mysqli_query($conexion,$cons)){
         header("location:Presentacion.php");
     }else{
-        echo"PROBLEMAS AL REGISTRAR LA MARCA";
+        echo"PROBLEMAS AL REGISTRAR LA PRESENTACION";
     }
     mysqli_close($conexion);
     ?>
