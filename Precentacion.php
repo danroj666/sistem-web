@@ -6,7 +6,7 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrar Presentacion</title>
+    <title>Registrar Nueva Presentacion</title>
     <link rel="stylesheet" href="estilos/categoria1.css">
 </head>
 <body>
