@@ -1,6 +1,6 @@
 <?php
 include('conexion/conexion.php');
- 
+ //eliminacion logica de una presentacion 
 $idProd = $_GET['id'];
 $sql = "UPDATE presentacion SET estatus = '0'
     WHERE idPresentacion = '$idProd'";
