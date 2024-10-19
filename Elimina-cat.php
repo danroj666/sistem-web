@@ -1,6 +1,6 @@
 <?php
 include('conexion/conexion.php');
- 
+  //eliminacion lde categoria 
 $idProd = $_GET['id'];
 $sql = "UPDATE categoria SET estatus = '0'
     WHERE idCategoria = '$idProd'";
