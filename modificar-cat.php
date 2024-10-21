@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +13,8 @@
     <h1>Actualizar Categoria</h1>
 
     <?php
-    require("conexion/conexion.php");
+//consulta para seleccionar una categoria
+require("conexion/conexion.php");
     $idCat = $_GET['id'];
     $consulta = "SELECT * FROM categoria WHERE idCategoria='$idCat'";
     #EJECUTAR LA CONSULTA
