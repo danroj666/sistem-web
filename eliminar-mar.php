@@ -1,6 +1,6 @@
 <?php
 include('conexion/conexion.php');
- //consulta para eliminacion logica
+ //consulta para eliminacion logica para que el estatus cambie a 0
 $idProd = $_GET['id'];
 $sql = "UPDATE marca SET estatus = '0'
     WHERE idMarca = '$idProd'";
