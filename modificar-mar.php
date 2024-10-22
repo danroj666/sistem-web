@@ -12,6 +12,7 @@
     <h1>Actualizar  Marca</h1>
 
     <?php
+    //consulta para extraer los datos de el catalogo de marcas
     require("conexion/conexion.php");
     $idMar = $_GET['id'];
     $consulta = "SELECT * FROM marca WHERE idMarca='$idMar'";
