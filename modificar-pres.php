@@ -12,7 +12,7 @@
     <h1>Actualizar Precentacion</h1>
 
     <?php
-    //consulta para poder elegir una nueva presentacion
+    //consulta para poder elegir una nueva presentacion de el catalogo de la bd
     require("conexion/conexion.php");
     $idPres = $_GET['id'];
     $consulta = "SELECT * FROM presentacion WHERE idPresentacion='$idPres'";
