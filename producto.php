@@ -1,4 +1,5 @@
 <?php
+//VARIABLES DE SESION 1.2
 session_start();
 ?>
         <!DOCTYPE html>
