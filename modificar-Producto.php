@@ -56,6 +56,7 @@ $regPreod = mysqli_fetch_array($Presentacion);
                 <select name="selectPres">
                     <option value="">--seleccione--</option>
                     <?php
+                    //consulta para estrar datos y mostrarlos en un select
                     include("conexion/conexion.php");
                     $sql = "SELECT * FROM presentacion";
                     $resultado = mysqli_query($conexion, $sql);
