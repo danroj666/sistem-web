@@ -74,6 +74,7 @@ $regPreod = mysqli_fetch_array($Presentacion);
                 <select name="selectCategoria">
                     <option value="">--seleccione--</option>
                     <?php
+                    //consulta para estrar datos y mostrarlos en un select
                     $sql = "SELECT * FROM categoria";
                     $resultado = mysqli_query($conexion, $sql);
                     while ($mosCategoria = mysqli_fetch_array($resultado)) {
