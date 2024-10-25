@@ -79,9 +79,11 @@ session_start();
             <tr>
                 <td><label>Presentacion:</label></td>
                 <td>
+
                     <select name="selectPres">
                         <option value="">--seleccione--</option>
                         <?php
+                        //CONSULTA PARA EXTRAER CARACTERISTICAS DE TABLAS EXTERNAS
                         include("conexion/conexion.php");
                         $sql = "SELECT * FROM presentacion WHERE estatus = 1";
                         $resultado = mysqli_query($conexion, $sql);
