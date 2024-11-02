@@ -213,7 +213,7 @@ button {
 
 
 .header .btn button,
-/**/.header .menu button{
+.header .menu button{
     margin-left: 20px;
     font-weight: 700;
     color: #1b3039;
