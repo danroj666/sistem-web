@@ -1,5 +1,6 @@
 <?php
-//variables de secion 
+//variables de secion deacuerdo a el rol asignado
+
 session_start();
 ?>
 <!DOCTYPE html>
