@@ -1,4 +1,5 @@
 <?php
+//conexion a BD
 include('conexion/conexion.php');
 $cat = $_POST['txtIDM'];
 $descripcionC = $_POST['txtMar'];
