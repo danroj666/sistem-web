@@ -13,6 +13,7 @@ estatus='$estatus'
 WHERE idCategoria = '$cat'";
 
 if(mysqli_query($conexion,$consulta)){
+    //redireccion si la condicion se cumple
     header("location:Categoria.php");
 
 }else{
