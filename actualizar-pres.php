@@ -11,6 +11,14 @@ descripcionPres = '$descripcionC',
 estatus ='$estatus'
 WHERE idPresentacion = '$cat'";
 
+if(mysqli_query($conexion,$consulta)){
+    header("location:Presentacion.php");
+
+}else{
+    echo "Problemas al actualizar la Presentacion ,Consulte al administrador";
+}
+
+ mysqli_close($conexion);
 
 
 ?>
