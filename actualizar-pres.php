@@ -1,4 +1,5 @@
 <?php
+//extraccion de los datos desde el formulario para insertarlos dentro de la bd con la consulta sql
 include('conexion/conexion.php');
 $cat = $_POST['txtIDM'];
 $descripcionC = $_POST['txtMar'];
