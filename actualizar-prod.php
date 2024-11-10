@@ -1,5 +1,7 @@
 <?php
+//conexion a la BD
 include('conexion/conexion.php');
+
   $clav = $_POST['txtIDM']; 
   $Nombre = $_POST['txtNombre'];
   $Descripcion = $_POST['txtDescripcion'];
