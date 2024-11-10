@@ -1,7 +1,8 @@
 <?php
 //conexion a la BD
 include('conexion/conexion.php');
-
+//extraccion de datos de los campos de texto y
+//de los select para cambiar la propiedad de algun producto
   $clav = $_POST['txtIDM']; 
   $Nombre = $_POST['txtNombre'];
   $Descripcion = $_POST['txtDescripcion'];
