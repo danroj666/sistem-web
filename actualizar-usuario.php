@@ -1,4 +1,5 @@
 <?php
+//insercion desde el formulario a la DB
    include('conexion/conexion.php');
    $clav = $_POST['txtIDM']; 
    $Nombre = $_POST['txtNombre'];
