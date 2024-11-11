@@ -21,6 +21,12 @@
              WHERE idUsuario = '$clav'";
     
 
-
+    include("conexion/conexion.php");
+    if(mysqli_query($conexion,$consulta)){
+        header("location:consultar-Usuario.php");
+    }else{
+        echo"PROBLEMAS AL REGISTRAR EL USUARIO";
+    }
+    mysqli_close($conexion);
  
     ?>
