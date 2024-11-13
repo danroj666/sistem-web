@@ -64,7 +64,7 @@
 # EJECUTAR LA CONSULTA
 $areas = mysqli_query($conexion, $consulta);
 
-# EXTRAER LOS DATOS DE LA CONSULTA
+# EXTRAER LOS DATOS DE LA CONSULTA en tabla
 while ($mostrarProducto = mysqli_fetch_assoc($areas)) {
     echo "<tr>" .
         "<td>" . $mostrarProducto["clvProd"] . "</td>" .
