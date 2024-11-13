@@ -57,7 +57,7 @@
         </tr>
 
          <?php
-
+        //procedure para consultar productos
         include("conexion/conexion.php");
         $consulta = "CALL ObtenerProductos()";
 
