@@ -57,7 +57,7 @@ session_start();
         </tr>
 
          <?php
-
+//procedure para usuarios
         include("conexion/conexion.php");
        $consulta = "CALL ObtenerUsuarios()";
 
