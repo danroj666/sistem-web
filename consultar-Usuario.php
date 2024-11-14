@@ -61,7 +61,7 @@ session_start();
         include("conexion/conexion.php");
        $consulta = "CALL ObtenerUsuarios()";
 
-# EJECUTAR LA CONSULTA
+
 $areas = mysqli_query($conexion, $consulta);
 
 # EXTRAER LOS DATOS DE LA CONSULTA
