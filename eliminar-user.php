@@ -1,4 +1,5 @@
 <?php
+//conexion a BD
 include('conexion/conexion.php');
  
 $idProd = $_GET['id'];
