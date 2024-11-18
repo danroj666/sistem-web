@@ -54,6 +54,7 @@ $regPreod = mysqli_fetch_array($Presentacion);
                         <option value="">--seleccione--</option>
                         <?php
                         include("conexion/conexion.php");
+                        //mostrar los datos por defecto
                         $sql = "SELECT * FROM rol";
                         $resultado = mysqli_query($conexion, $sql);
                         while ($mosCategoria = mysqli_fetch_array($resultado)) {
