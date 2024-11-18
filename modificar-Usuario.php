@@ -12,6 +12,7 @@
     <h1>Editar Usuario</h1>
 
     <?php
+    //conexion con bd
 require("conexion/conexion.php");
 $idProd = $_GET['id'];
 $consulta = "SELECT * FROM usuario WHERE idUsuario='$idProd'";
